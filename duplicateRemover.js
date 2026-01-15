@@ -8,6 +8,6 @@ for (const number of numbers){
 return uniqueNumbers;
 };
 
-const arr = [1,1,1,1,1,0,20,30,10,45];
+const arr = [1, 2, 2, 3, 4, 4];
 const result = removeDuplicates(arr);
 console.log(result);
